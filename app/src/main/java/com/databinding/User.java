@@ -9,7 +9,15 @@ public class User {
     private String email;
 
     private boolean vip;
+    private String icon;
 
+    public String getIcon() {
+        return icon;
+    }
+
+    public void setIcon(String icon) {
+        this.icon = icon;
+    }
 
     public String getName() {
         return name;

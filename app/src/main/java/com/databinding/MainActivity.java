@@ -21,6 +21,7 @@ public class MainActivity extends AppCompatActivity {
         user.setName("名字");
         user.setNickName("昵称");
         user.setEmail("1@1.net");
+
         user.setVip(true);
 
         User user1=new User();
